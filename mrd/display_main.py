@@ -98,7 +98,7 @@ def determine_network():
 
 def parse_command_line_args():
     parser = argparse.ArgumentParser(description="Run MRD")
-    parser.add_argument("--nooutlook", help="Start with mock backend instead of outlook backend", default=False, required=False, action="store_true")
+    parser.add_argument("--nooutlook", help="Start with mock backend instead of outlook backend", default=True, required=False, action="store_true")
     return parser.parse_args()
 
 
