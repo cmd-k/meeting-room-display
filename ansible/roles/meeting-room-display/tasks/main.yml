@@ -153,7 +153,7 @@
 - name: Install and configure hotspot mode
   command: "bash {{deploydir}}/hotspot/setup.sh {{deploydir}} --install"
   tags:
-    #- installation
+    - installation
     - hotspot
 
 - name: Update hotspot mode (html files and start script)
