@@ -6,4 +6,4 @@
 workspace.xml
 mrd/ui/img/hostname_qr.png
 mrd/configuration.ini
-mrd/o365_token.txt
+o365_token.txt
